@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: cogeotiff
+Version: 0.1.4
+Summary: Cloud Optimized GeoTiff utility tools.
+Home-page: https://github.com/sshuair/cogeotiff
+Author: sshuair
+Author-email: sshuair@gmail.com
+License: UNKNOWN
+Keywords: GeoTiff COG GDAL
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Dist: click
+Requires-Dist: gdal
+
+## Cloud Optimized GeoTiff utility tools
+
+
+## Requirements
+- click
+- gdal
+
+## Install
+- pypi: `pip install cogeotiff`
+- source code: `python setup.py install`
+
+## Usage
+
+### Python PAI
+1. create cog file
+example:
+```python
+from cogeotiff.cog import create_cog
+src_path = '~/path_to_image/test.tif'
+dest_path = '~/path_to_save/test.tiff.cog'
+create_cog(src_path, dest_path, compress='jpeg')
+```
+
+2. validate cog file
+```python
+from cogeotiff.validate_cogeotiff import validate_cog
+cog_path = '~/path_to_cog.tif.cog'
+result = validate_cog(cog_path)
+```
+
+### Command tools
+1. create cog file
+```bash
+Usage: cog create [OPTIONS] SRC_PATH DST_PATH
+
+Options:
+  --overview-resampling TEXT  resampling method for create pyramid default:
+                              nearest
+  --overview-level INTEGER    levels to build
+  --nodata INTEGER            Assign a specified nodata value to output bands.
+                              default: 0
+  --block-size INTEGER        tiled size, default: 512
+  --compress TEXT             compress method: JPEG,RAW,DEFLATE,LZW,WEBP,ZSTD,PACKBITS,default: raw
+  --help                      Show this message and exit.
+```
+
+2. validate cog file
+```bash
+Usage: cog create [OPTIONS] COG_PATH 
+```
+
+## Q&A
+- Q: why not use `GDAL BuildOverviews` or `Rasterio` in script?
+- A: Because for large file such as 100GB, it's take long time to generate overview and translate to tiled GeoTiff. There is no progress infomataion use `Rasterio` or `GDAL BuildOverviews` methods.
+- Q: why not use [rio-cogeo](https://github.com/cogeotiff/rio-cogeo)?
+- A: Cause it use `rasterio MemoryFile()`, when the file is too large, it will cause insufficient memory.
+
+

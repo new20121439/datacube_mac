@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        cog=cogeotiff.cli.cli:entry_point
+    

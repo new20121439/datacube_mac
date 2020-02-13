@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "caramel-box-132123",
+  "private_key_id": "3131987e1bbf124bccb5684269a9a08f9108c140",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDjnOP9/lSeLb3r\neCim06FhJgbyjY94Stne9hrlONz5MNukSbXoArXsolojZVCTmQRnccqthgbtPipz\nV7SKJs8r0eXhGs6p9yjBBUvcGwmFTWztdSVTJvnHSjKVFX3s+iPXdKOyY1qUUY6U\nvCd7wlkFJVlGj4WA0uO6mWet/ltnVH+yt4se4/lf6uPxm6sejlX0e0ej49zqmI2o\nBKSmueljiFuRiz8R9t5+DqOt0jiDyB1ZrB8N+nn9V1b88Mr4nC0sbhnQOZtN5U9N\nOQ7M+2JaEquG/fxAPG1/lQREHGAvKcNOazHLd33k8s6aT8MTrO6s/uPYXNZ/qGZj\nvBhzqCZDAgMBAAECggEACaxv/tTXASdYhwVtqjQcYRCeAvkD5qI9GD4aw9s4KQRr\n5qjrU5ep5mC6tqkQ/5+P5wWYY5TqqR1B7fJa+J7QTJXN0KoJq9eWon14d+ZTmpgW\nemZxgP3gZ8Po2m/gu42gsFYuDuAsyAOfV7BCIqm5NtVw3JAvpbCmKmwSp/vDeWSy\nyPD9puu6TQ+nLXKIB5GHSQwy4Pk96rd6J0jWdDjs0eSfOdkopulEdcwZ9eJfEb37\nsmfilIaq8cUHUb0ppPeZZmSqz4nmpKK6EQHR5ObxsUdIo7/Y8aqHGPX/oJi1qiWI\nrD4OiPdxAcuJQ0A9SewWH/Axy6e1nmQF4UUrF7h0QQKBgQD0Jl+REF8hZUhcHICG\nTwzq0SKezUX/xpq8lL0bWcg++MZbuDA4kbhDdYuS5Xd8GYkeXx5v7FV6O5Fqekv/\nvEsw4lzDbizHxIF3egLUpH2FjKCm1agZpk6rH3yeaFoAjvXVP0cW/bnH+Re/8b53\nfN4SG7QX0jtdcqt3k5TDzoxiWwKBgQDuqQpJ9xu1eI5J2GFZjse+O6hxtQccYOQ/\nPGzgNhW4nlcJLj67fvcYm2TRnHPFOlssCkchD+ITcl2JXF1n5kv9Fim8cgnOpZKH\ntDfMeUuf/7jrSrgalqslcKkxqP51a/L3VPyibhh1eH1F6nturxGFzV85t5AD8rwU\nrwfs44bAOQKBgQDaMu1YDUSn6QfZYpOu9Tk7JzuEpzp3FD04asnzhrMDLHzCfgOC\nmyEOESBzYWb+3yd/oEzohFQEUPZuLex8GwEsKDH1ayLUSpfWepHLD1MrJvpxACQj\nAFHwd8x9Gg/NzfaA5fOX5ZzCzqjeH6Q0z8D8eAvk+juaEaCS1q+uq4slXwKBgQC8\nWBsOlD0B0co47NKm4s8vidU9JygddTmrzfv+VbB+qjb1v9EyFtjaSogeA+I5W/xn\nnRTVOrunrTG0HXh5bn25lawKU9T5iCFDhy4h5/eOpTlCNw1jrlQSj/52em+WK0Lr\nfd6CMXCMBDKY4pvWlcK2XYUw/3RgKUfU6uzOPiExwQKBgAedgsw+hkzGB/hbJP89\n2Wyo1bzsokatNtUB9/H4ixjcKmpSr6Qw43Qqosv4+WRT30luVRmla77nDQUvMGz9\nKsnCxqtNoRTAMOtBkSTUMrzbLo32cXdTfUSU8XlGyJkzt7Mvm/uV54vMhtQSv1Q3\ncpRXIyJ/7Jshe8vE3RjrjEvZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "sentinel2-gcs@caramel-box-132123.iam.gserviceaccount.com",
+  "client_id": "104462826512630374377",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sentinel2-gcs%40caramel-box-132123.iam.gserviceaccount.com"
+}
